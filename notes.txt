@@ -1,0 +1,32 @@
+Testing Setup:
+
+1) Test Runner :-> Execute your tests, summarize results i.e. Mocha (unit + inteigration )
+2) Assertion Library :-> Define testing logic, conditions i.e. Chai (unit + inteigration )
+
+Both i.e. Test Runner + Assertion -> i.e. Jest
+
+3) Headless Browser :-> Simulates Browser interaction i.e. Puppeteer (e2e)
+
+Setup:
+
+npm install --save-dev jest
+
+
+---Unit Testing---
+Unit testing is type of testing to check if the small piece of code is doing what it is suppose to do.
+i.e. check single component of an application
+i.e. have no dependencies on code outside the unit testd 
+i.e. mainly focus on the testing the functionality of individual units only and does not uncover the
+    issues arises when different modules are interacting with each other.
+i.e. The goal of Unit testing is to test the each unit separately and ensure that each unit is working as expected.	
+i.e. White box testing type
+
+---Integration Testing---
+Integration testing is a type of testing to check if different piece of the modules are workign together.
+i.e.  behavior of integration modules is considered in the Integration testing.
+i.e. dependent on other outside systems like databases, hardware allocated for them etc.
+i.e. to be carried out to discover the the issues arise when different modules are interacting with
+    each other to build overall system.
+i.e. The goal of Integration testing is to test the combined modules together and ensure that every combined modules
+    are working as expected.
+i.e. both Black box and White box type of testing.
